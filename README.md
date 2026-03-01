@@ -1,8 +1,8 @@
-# Video Text Extractor Tool
+# Video Batch Renamer OCR
 
 ## Overview
 
-This tool extracts text from the 3rd second keyframe of a video and renames the video file using the extracted text. It can automatically process all common video formats in the current directory.
+This tool extracts text from the 3rd second keyframe of a video and renames the video file using the extracted text. It can automatically batch process all common video formats in the current directory.
 
 ## Inspiration
 
@@ -10,9 +10,9 @@ The idea for this project comes from the [VideoFrameTextExtractor](https://githu
 
 ## Usage
 
-1. Place the script `video_text_extractor.py` in the directory containing the video files.
+1. Place the script `video_batch_renamer_ocr.py` in the directory containing the video files.
 2. Ensure the required libraries are installed: `paddleocr`, `opencv-python`.
-3. Run the script: `python video_text_extractor.py`.
+3. Run the script: `python video_batch_renamer_ocr.py.
 
 ## Supported Video Formats
 
